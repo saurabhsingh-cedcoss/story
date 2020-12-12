@@ -5,65 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+
+    <!--*******************************external css************************************************************  -->
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <section class="head">
 
+    <section class="head">
         <div class="container">
+            <!-- ********************logo**************************************** -->
             <img src="logo.png" alt="logo" class="logo" width="130px" height="100px">
         </div>
     </section>
     <section class="main">
-
+<!-- ********************************main section************************* -->
         <div class="maincontainer">
             <h2>Complete the Form-</h2>
             <h2>Complete the Story</h2>
-        
-                <form action="story.html"  class="form">
+<!-- **********************form********************************************** -->
+            <form action="story.html" class="form">
 
-                    Animal: <input type="text" name="animal" required id="inpAnimal" placeholder="tiger">
-                    <br>
-                    Another Animal: <input type="text" name="anotherAnimal" required id="inpAnotherAnimal" placeholder="lion">
-                    <br>
-                    One More Animal:
-                    <input type="text" name="more" id="inpMore" required placeholder="dog">
-                    <br>
-                    Adjective(past tense): <input type="text" required name="past" id="inpPast" placeholder="alarmed">
-                    <br>
-                    Verb(ends in -ing):
-                    <input type="text" name="verb" id="inpVerb" required placeholder="running">
-                    <br>
-                    Number:
-                    <input type="number" name="number" id="inpNumber" required placeholder="2">
-                    <br>
-                    Yes or No:
+                Animal: <input type="text" name="animal" required id="inpAnimal" placeholder="tiger">
+                <br>
+                Another Animal: <input type="text" name="anotherAnimal" required id="inpAnotherAnimal"
+                    placeholder="lion">
+                <br>
+                One More Animal:
+                <input type="text" name="more" id="inpMore" required placeholder="dog">
+                <br>
+                Adjective(past tense): <input type="text" required name="past" id="inpPast" placeholder="alarmed">
+                <br>
+                Verb(ends in -ing):
+                <input type="text" name="verb" id="inpVerb" required placeholder="running">
+                <br>
+                Number:
+                <input type="number" name="number" id="inpNumber" required placeholder="2">
+                <br>
+                Yes or No:
 
-                    <input type="radio" value="yes" name="radio">Yes
-                    <input type="radio" value="no" name="radio">No <br>
-                    
-                    Relative speed(ends in -er):
-                    <select name="speed">
-                        <option value="runner">runner</option>
-                        <option value="faster">faster</option>
-                    </select>
-                    <br>
-                    Motivational Quote: <input type="text" required name="quote" id="quote" placeholder="example"> <br>
-                    Meaningful Message:
-                    <br>
-                    <textarea name="message" id="message" required cols="30" rows="10" placeholder="this is meaning"></textarea>
-                    <br>
+                <input type="radio" value="yes" name="radio" >Yes
+                <input type="radio" value="no" name="radio" required>No <br>
+
+                Relative speed(ends in -er):
+                <select name="speed">
+                    <option value="runner">runner</option>
+                    <option value="faster">faster</option>
+                </select>
+                <br>
+                Motivational Quote: <input type="text" required name="quote" id="quote" placeholder="example"> <br>
+                Meaningful Message:
+                <br>
+                <textarea name="message" id="message" required cols="30" rows="10"
+                    placeholder="this is meaning"></textarea>
+                <br>
 
 
-                    <input type="submit" onClick="consol()" value="Form my story">
+                <input type="submit" onClick="consol()" value="Form my story">
 
-                </form>
-           
+            </form>
+
         </div>
 
     </section>
 </body>
+
+<!-- *********************************external script************************* -->
 <script src="main.js"></script>
 
 </html>

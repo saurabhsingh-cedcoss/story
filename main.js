@@ -1,6 +1,9 @@
 
 function consol() {
       if(localStorage.length==0){
+
+        // ***************************setting data to localstorage******************
+
      localStorage.setItem('animalName', document.getElementById("inpAnimal").value);
      localStorage.setItem('anotherAnimalName', document.getElementById("inpAnotherAnimal").value);
      localStorage.setItem('more', document.getElementById("inpMore").value);
@@ -12,8 +15,10 @@ function consol() {
      localStorage.setItem('speed', document.querySelector("select[name='speed']").value);
       }
     }
-   
-    function story(){
+
+//    *****************loop to get value of class*********************
+    
+function story(){
         if(localStorage.length>0){
     var sanimal = document.querySelectorAll(".sanimal");
     for (i = 0; i < sanimal.length; i++) {
@@ -29,6 +34,7 @@ function consol() {
     }
     
 
+//    *****************loop to get value from localstorage*********************
 
      document.getElementById("sradio").innerHTML = localStorage.getItem("radio");
      document.getElementById("smore").innerHTML = localStorage.getItem("more");
