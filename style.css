@@ -1,0 +1,38 @@
+body {
+    background-color: #f7af0f;
+}
+
+.container {
+    max-width: 60%;
+    height: auto;
+    background-color: white;
+    border-radius: 5%;
+
+    margin-left: 20%;
+}
+
+u {
+    font-weight: bold;
+}
+
+.head {
+    text-align: center;
+}
+
+.maincontainer {
+    background-color: #fff0d0;
+    max-width: 60%;
+    border-bottom: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 1%;
+    padding: 5px;
+    overflow-y: auto;
+    height: 500px;
+}
+
+.form {
+    line-height: 35px;
+
+}
